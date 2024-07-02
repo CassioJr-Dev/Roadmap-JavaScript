@@ -1,6 +1,6 @@
 # Tipos de Dados em JavaScript
 
-## Índice
+## Sumário
 
 1. [Tipos Primitivos](#tipos-primitivos)
 2. [Operador typeof](#operador-typeof)

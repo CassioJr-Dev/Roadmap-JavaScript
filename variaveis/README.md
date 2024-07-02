@@ -2,7 +2,7 @@
 
 Este README cobre conceitos básicos sobre variáveis em JavaScript, incluindo declaração de variáveis, hoisting, regras de nomenclatura e escopos de variáveis. Esses conceitos são fundamentais para o desenvolvimento em JavaScript e fornecem uma base sólida para a criação de código eficiente e livre de erros.
 
-## Índice
+## Sumário
 
 1. [Declaração de Variáveis](#declaração-de-variáveis)
 2. [Hoisting](#hoisting)
