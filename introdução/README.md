@@ -67,6 +67,6 @@ JavaScript pode ser executado de diferentes maneiras, tanto no navegador quanto 
 <br>
 
 3. **Execução**: No terminal, navegue até o diretório onde está o seu arquivo e execute:
-```bash
-$ node app.js
-```
+    ```bash
+    $ node app.js
+    ```

@@ -98,8 +98,7 @@ JavaScript possui vários objetos integrados que fornecem métodos e propriedade
     let meuCarro = new Carro("Honda", "Civic");
     console.log(meuCarro.informacoes()); // Output: "Honda Civic"
 
-Aqui está o exemplo de código onde um método não é comparatilhado por todas instâncias da função construtora.
-- ***
+- Aqui está o exemplo de código onde um método não é compartilhado por todas instâncias da função construtora.
     ```javascript
     function Carro(marca, modelo) {
         this.marca = marca;
@@ -114,14 +113,13 @@ Aqui está o exemplo de código onde um método não é comparatilhado por todas
 
     console.log(meuCarro.informacoes()); // Output: "Honda Civic"
 
+O prototype é usado principalmente para habilitar a herança em JavaScript. Quando uma função é usada como construtora (new Carro()), o objeto resultante (meuCarro) herda propriedades e métodos definidos no prototype da função (Carro.prototype).
+
 
 ### Herança Prototípica
 
-JavaScript utiliza um modelo de herança baseado em protótipos, onde os objetos podem herdar propriedades de outros objetos.
+- JavaScript utiliza um modelo de herança baseado em protótipos, onde os objetos podem herdar propriedades de outros objetos.
 
-O prototype é usado principalmente para habilitar a herança em JavaScript. Quando uma função é usada como construtora (new Carro()), o objeto resultante (meuCarro) herda propriedades e métodos definidos no prototype da função (Carro.prototype).
-
-- ***
     ```javascript
     // Objeto 'Animal' com um método 'walk'
     let Animal = {
@@ -142,4 +140,3 @@ O prototype é usado principalmente para habilitar a herança em JavaScript. Qua
 
     myDog.walk(); // Saída: Buddy está andando.
     myDog.bark(); // Saída: Buddy está latindo.
-
