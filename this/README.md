@@ -1,4 +1,3 @@
-
 # Entendendo a Palavra-chave `this` em JavaScript
 
 A palavra-chave `this` em JavaScript é uma funcionalidade poderosa e às vezes confusa. Seu valor pode variar dependendo de onde e como é usada. Este README irá guiá-lo através dos diferentes contextos em que `this` opera, com exemplos.
